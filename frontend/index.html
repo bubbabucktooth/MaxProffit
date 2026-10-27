@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maximum Motivation — Meet the coach</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="finale.css">
+  <script src="game.js" type="module"></script>
+</head>
+<body>
+  <main class="stage" data-expression="believer">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">↗</span><div>MAXIMUM<br>MOTIVATION<span class="brand-caption">THE MOTIVATIONAL MONEY MACHINE</span></div></div>
+      <span class="edition"><i></i> MEET YOUR COACH</span>
+    </header>
+    <div class="spotlight" aria-hidden="true"></div>
+    <div class="floor" aria-hidden="true"></div>
+    <section class="portrait" aria-label="Motivational coach">
+      <div id="character" class="character" aria-busy="true"></div>
+    </section>
+    <div class="flight-layer" aria-hidden="true"></div>
+    <div class="speech-bubble" role="status" aria-live="polite" hidden><span class="quote-text"></span><cite class="quote-author"></cite></div>
+    <section class="money-dock" aria-label="Throw pretend money">
+      <div class="receipt sr-only"><output id="money-count" aria-label="Bills landed">0</output><span class="money-total"> / <span id="money-limit"></span></span> BILLS LANDED <span id="pending-count"></span></div>
+      <button class="throw-button" type="button" disabled aria-label="Throw a pretend banknote at Max"><span id="money-icon" aria-hidden="true"></span><span id="throw-label">FEED THE EGO ↗</span></button>
+      <span class="pretend-note">FAKE MONEY. REAL SELF-BELIEF.</span>
+    </section>
+    <aside class="nameplate"><span class="eyebrow">CERTIFIED IN SELF BELIEF</span><h1>MAX<br>PROFFIT<span>™</span></h1><p>Trickle down motivation.<br>He gets paid. You get made.</p><span class="nameplate-rule"></span><span class="fiction">A completely fictional success story.</span></aside>
+    <footer class="control-bar">
+      <div class="status"><span class="status-dot"></span><span>UNREASONABLY CONFIDENT</span></div>
+      <button class="motion-toggle" type="button" aria-pressed="false">Pause motion <span aria-hidden="true">Ⅱ</span></button>
+    </footer>
+    <p class="sr-only" id="expression-status" role="status">Confident expression</p>
+    <section class="finale-layer" aria-label="Planetary motivation finale" hidden>
+      <div class="finale-coach" aria-hidden="true"></div>
+      <p class="finale-quote"><span></span><cite></cite></p>
+      <p class="finale-shout" aria-live="assertive" hidden>YOU ARE<br>UNSTOPPAAAAABLE!</p>
+      <div class="space-scene" aria-hidden="true" hidden>
+        <div class="star-field"></div>
+        <div class="earth-camera"><div class="earth-rig"></div><div class="coach-speck"></div></div>
+        <div class="explosion"></div>
+        <p class="space-caption">TOO MUCH POTENTIAL.<br>NOT ENOUGH PLANET.</p>
+      </div>
+      <div class="finale-wash" aria-hidden="true"></div>
+      <div class="game-over" hidden>
+        <span class="over-eyebrow">MAXIMUM MOTIVATION ACHIEVED</span>
+        <h2>He motivated Earth<br> to blow itself up.</h2>
+        <button class="restart-button" type="button">Try again.</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

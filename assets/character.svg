@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="coach-svg" viewBox="0 0 700 850" role="img" aria-labelledby="coach-title coach-description">
+<title id="coach-title">Max Proffit, motivational coach</title>
+<desc id="coach-description">A flat paper-cut caricature of a muscular American motivational speaker: huge square jaw, swept brown hair, large white eyes with tiny pupils, black open-neck shirt with rolled sleeves, dark trousers and a headset. His cut-out limbs and mouth change in deliberately abrupt held poses.</desc>
+<defs>
+  <g id="left-hand" fill="#dca47d" stroke="#30251e" stroke-width="2.5" stroke-linejoin="round">
+    <path d="m176 565-13-30-5-30q-2-11-10-9-7 2-5 12l1 18-13-8-28-7q-11-2-12 5-1 6 10 9l18 6-25 1q-11 1-10 8 1 7 12 6l24-1-20 9q-10 4-6 10 3 5 12 2l27-9-17 13q-7 7-2 12 5 4 13-2l25-13 11 14Z"/>
+    <path d="m144 532 3 15-13 8m-15-24 10 6m-9 8 11-3" fill="none" stroke="#9c6f50" stroke-width="2"/>
+  </g>
+</defs>
+<!-- Each limb is a flat, separate paper piece. No gradients or sculpted shading. -->
+<g stroke="#18191b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <g id="legs" fill="#303137">
+    <path d="m255 659-5 121 79 0 21-97 21 97 79 0-5-121Z"/>
+    <path d="m350 684 0-24" fill="none"/>
+    <path d="m248 774-29 14-7 18h117v-32Zm123 0v32h117l-7-18-29-14Z" fill="#17181b"/>
+  </g>
+  <g class="body-idle">
+    <g class="arm-left">
+      <path d="M257 424q-32-5-47 24l-31 68 45 24 49-75Z" fill="#222326"/>
+      <path d="m183 506 46 23-9 18-46-24Z" fill="#393a3d"/>
+      <path d="m176 525-20 34q-7 12 7 23l19 10q12 5 20-7l17-39Z" fill="#dca47d"/>
+      <use href="#left-hand"/>
+    </g>
+    <g class="arm-right">
+      <path d="M443 424q32-5 47 24l31 68-45 24-49-75Z" fill="#222326"/>
+      <path d="m517 506-46 23 9 18 46-24Z" fill="#393a3d"/>
+      <path d="m524 525 20 34q7 12-7 23l-19 10q-12 5-20-7l-17-39Z" fill="#dca47d"/>
+      <use href="#left-hand" transform="translate(700 0) scale(-1 1)"/>
+    </g>
+    <!-- Wide shoulders; black shirt, open collar and rolled sleeves from the reference. -->
+    <path d="m273 411 37-10h80l37 10 33 28-12 113 7 127q-98 14-210 0l7-127-12-113Z" fill="#242527"/>
+    <path d="m312 380-4 36 42 53 43-53-5-36Z" fill="#dca47d"/>
+    <path d="m307 403-23 15 17 54 24-28 25 28-30-60Zm86 0 23 15-17 54-24-28-25 28 30-60Z" fill="#17181a"/>
+    <path d="m350 472 0 205" stroke="#111214" stroke-width="2"/>
+    <g fill="#525356" stroke="none"><circle cx="355" cy="502" r="3"/><circle cx="355" cy="543" r="3"/><circle cx="355" cy="584" r="3"/><circle cx="355" cy="625" r="3"/><circle cx="355" cy="664" r="3"/></g>
+    <path d="m266 551-3 47m172-47 3 47" fill="none" stroke="#38393b" stroke-width="2"/>
+    <g class="head-idle">
+      <path d="M205 214q-29-6-26 23l8 34q4 14 24 8m284-65q29-6 26 23l-8 34q-4 14-24 8" fill="#dca47d" stroke-width="2.5"/>
+      <path d="m195 232 6 25m304-25-6 25" fill="none" stroke="#9c6f50" stroke-width="2"/>
+      <!-- Broad uninterrupted skin colour and an exaggerated flat-bottomed jaw. -->
+      <path d="M208 160q5-63 70-73h145q64 17 69 76l3 117-20 70-37 36q-88 30-175 0l-37-36-21-70Z" fill="#dca47d" stroke-width="2.5"/>
+      <!-- Side-parted swept hair, as broad cut-paper silhouettes, not strands. -->
+      <path d="m205 229-8-69 14-38 19-20 7-20 32 1 29-17 40 5 48-7 46 16 24 2 30 29 17 42-8 76-14 7-8-65-22-32-52 14-47-7-42 3-38-9-32 37-8 48Z" fill="#45362b" stroke-width="2.5"/>
+      <path d="m237 119 45-22 57 5 46-7 47 16 21 18-65-13-51 8-52-4-30 10Z" fill="#654d36" stroke="none"/>
+      <path d="m277 147 46-8 38 4 50-6" fill="none" stroke="#30271f" stroke-width="2"/>
+      <!-- Large touching eye whites and simple pin pupils are essential to the style. -->
+      <g class="eyes" stroke-width="2">
+        <ellipse cx="304" cy="229" rx="46" ry="54" fill="#fff"/>
+        <ellipse cx="396" cy="229" rx="46" ry="54" fill="#fff"/>
+        <circle cx="316" cy="232" r="5" fill="#151515" stroke="none"/>
+        <circle cx="383" cy="232" r="5" fill="#151515" stroke="none"/>
+      </g>
+      <g class="expression-calm" fill="#45362b" stroke="none">
+        <path d="m259 172 3-9 40-5 37 12-2 8-37-7Z"/>
+        <path d="m361 177-1-8 39-12 40 6 3 10-43-4Z"/>
+      </g>
+      <g class="expression-inspired" fill="#45362b" stroke="none">
+        <path d="m258 160 4-9 40-5 37 12-2 8-37-7Z"/>
+        <path d="m361 165-1-8 39-12 40 6 3 10-43-4Z"/>
+      </g>
+      <g class="expression-intense" fill="#45362b" stroke="none">
+        <path d="m257 167 3-10 37 6 42 22-4 9-42-18Z"/>
+        <path d="m365 194-5-9 42-22 36-6 4 10-38 9Z"/>
+      </g>
+      <g class="expression-maximum">
+        <!-- Extra paper eye whites overlay the normal eyes, with tiny uneven pupils. -->
+        <ellipse cx="302" cy="227" rx="50" ry="61" fill="#fff" stroke-width="2"/>
+        <ellipse cx="399" cy="225" rx="50" ry="62" fill="#fff" stroke-width="2"/>
+        <circle cx="319" cy="232" r="3.5" fill="#171717" stroke="none"/>
+        <circle cx="384" cy="219" r="3.5" fill="#171717" stroke="none"/>
+        <path d="m258 152 3-11 35 8 45 31-6 10-44-25Zm102 28 43-33 35-9 7 12-39 13-40 27Z" fill="#45362b" stroke="none"/>
+        <path d="m260 212 12 5-7 8m6-8 5-11m164 39-13-6 6-11m-6 11-8 5" fill="none" stroke="#c46a67" stroke-width="2"/>
+        <path d="m337 159 8 15m22-15-7 15" fill="none" stroke="#a87957" stroke-width="2"/>
+        <g class="maximum-jaw">
+          <path d="M292 298q58-16 117 0l-5 63q-49 33-105 0Z" fill="#241b18" stroke-width="2.5"/>
+          <path d="m297 300 107 0-2 18-102-1Z" fill="#fff" stroke="none"/>
+          <path d="m319 359q32-26 64 0l-6 8h-49Z" fill="#bd6d65" stroke="none"/>
+          <path d="m307 367 84 0-10 8-62-1Z" fill="#fff" stroke="none"/>
+        </g>
+        <path d="m243 178-7 16m228-25 7 16m-240 154-8 12m249-13 8 13" fill="none" stroke="#a87957" stroke-width="3"/>
+        <g class="flying-sweat" fill="#7db6cc" stroke="none">
+          <path d="m212 176-15 7q-12 5-13-4 0-9 12-6Z"/>
+          <path d="m490 167 16 5q13 4 12-5-1-9-13-5Z"/>
+          <path d="m207 288-16 10q-12 8-14-1-2-9 11-10Z"/>
+          <path d="m497 281 16 11q12 8 15-1 2-9-12-11Z"/>
+          <path d="m232 137-8-12q-7-10-12-3-4 7 7 12Z"/>
+        </g>
+      </g>
+      <path d="m296 146 27-3m55 0 28 3" fill="none" stroke="#a87957" stroke-width="2"/>
+      <path d="m348 250-11 31h22" fill="none" stroke="#805d45" stroke-width="2"/>
+      <!-- Three held mouth drawings, swapped rather than morphed. -->
+      <g class="mouth-rest">
+        <g class="expression-calm">
+          <path d="M290 310q59 15 119-1l-15 26q-44 28-89 0Z" fill="#241b18" stroke-width="2"/>
+          <path d="m294 313 111-1-8 16h-96Z" fill="#fff" stroke="none"/>
+        </g>
+        <g class="expression-inspired">
+          <path d="M285 306q65 10 129-1l-13 39q-50 31-103-1Z" fill="#241b18" stroke-width="2"/>
+          <path d="m290 309 119-1-7 17H297Z" fill="#fff" stroke="none"/>
+          <path d="M321 347q30-16 59 0Z" fill="#bd6d65" stroke="none"/>
+        </g>
+        <g class="expression-intense">
+          <path d="M293 305q56-13 114 0l-10 53q-46 24-93-1Z" fill="#241b18" stroke-width="2"/>
+          <path d="m297 307 106 0-4 16-98-1Z" fill="#fff" stroke="none"/>
+          <path d="M322 356q29-21 58 0Z" fill="#bd6d65" stroke="none"/>
+        </g>
+      </g>
+      <g class="mouth-wide">
+        <path d="m291 308 118 0-8 39-98 0Z" fill="#241b18" stroke-width="2"/>
+        <path d="m295 310 110 0-3 12-104 0Z" fill="#fff" stroke="none"/>
+        <path d="m322 343 9-9h37l10 9Z" fill="#bd6d65" stroke="none"/>
+      </g>
+      <g class="mouth-round"><ellipse cx="350" cy="327" rx="23" ry="29" fill="#241b18" stroke-width="2"/><path d="m337 308h26" stroke="#fff" stroke-width="7"/></g>
+      <path d="m280 301-9 14m151-14 9 14" fill="none" stroke="#a87957" stroke-width="2"/>
+      <path class="chin-detail" d="m337 367h27" fill="none" stroke="#a87957" stroke-width="2"/>
+      <!-- Sparse flat stubble; no face modelling or decorative paper texture. -->
+      <g fill="#947052" stroke="none"><circle cx="246" cy="303" r="1.4"/><circle cx="251" cy="318" r="1.4"/><circle cx="257" cy="331" r="1.4"/><circle cx="265" cy="347" r="1.4"/><circle cx="277" cy="359" r="1.4"/><circle cx="290" cy="369" r="1.4"/><circle cx="306" cy="374" r="1.4"/><circle cx="322" cy="380" r="1.4"/><circle cx="350" cy="383" r="1.4"/><circle cx="378" cy="380" r="1.4"/><circle cx="394" cy="374" r="1.4"/><circle cx="410" cy="369" r="1.4"/><circle cx="423" cy="359" r="1.4"/><circle cx="435" cy="347" r="1.4"/><circle cx="443" cy="331" r="1.4"/><circle cx="449" cy="318" r="1.4"/><circle cx="454" cy="303" r="1.4"/></g>
+      <g class="eyelids" fill="#dca47d" stroke-width="2"><ellipse cx="304" cy="229" rx="46" ry="54"/><ellipse cx="396" cy="229" rx="46" ry="54"/><path d="m271 231 64 0m32 0h62" fill="none"/></g>
+      <path d="M494 211q11 38-5 62l-47 18" fill="none" stroke="#222326" stroke-width="5"/>
+      <ellipse cx="441" cy="292" rx="12" ry="10" fill="#222326" stroke="none"/>
+      <path d="m492 219 9 0 2 25-9 0Z" fill="#222326" stroke-width="2"/>
+      <g class="sweat" fill="#7db6cc" stroke="none"><path d="m477 180 6 16q4 12-5 12-9-1-6-12Z"/><path d="m231 272-5 14q-4 11 5 12 8-1 5-12Z"/></g>
+    </g>
+  </g>
+</g>
+</svg>

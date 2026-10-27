@@ -1,0 +1,10 @@
+{
+  "max_bills": 40,
+  "max_visible_flights": 12,
+  "levels": [
+    {"id":1,"key":"believer","label":"Believer","from_hit":1,"status":"UNREASONABLY CONFIDENT","duration_seconds":4},
+    {"id":2,"key":"hustler","label":"Hustler","from_hit":11,"status":"DANGEROUSLY INSPIRED","duration_seconds":2.8},
+    {"id":3,"key":"maniac","label":"Maniac","from_hit":21,"status":"ALARMINGLY FOCUSED","duration_seconds":1.6},
+    {"id":4,"key":"maximum","label":"Maximum","from_hit":31,"status":"TOO MOTIVATED TO BE HUMAN","duration_seconds":0.48}
+  ]
+}

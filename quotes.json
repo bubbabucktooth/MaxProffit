@@ -1,0 +1,322 @@
+[
+  {
+    "id": "believer-01",
+    "level": 1,
+    "text": "Where focus goes, energy flows.",
+    "author": "Tony Robbins",
+    "source_url": "https://www.tonyrobbins.com/blog/staying-focus",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "believer-02",
+    "level": 1,
+    "text": "Progress equals happiness.",
+    "author": "Tony Robbins",
+    "source_url": "https://www.tonyrobbins.com/personal-coaching",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "believer-03",
+    "level": 1,
+    "text": "Quality questions create a quality life.",
+    "author": "Tony Robbins",
+    "source_url": "https://www.tonyrobbins.com/de/living-primary-question",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "believer-04",
+    "level": 1,
+    "text": "Success is not a destination, it's a journey.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/success-a-destination/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "believer-05",
+    "level": 1,
+    "text": "Don't let the mistakes and disappointments of the past control and direct your future.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/your-future-2/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "believer-06",
+    "level": 1,
+    "text": "If you learn from defeat, then you haven't really lost!",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/learn-defeat/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "believer-07",
+    "level": 1,
+    "text": "The most important persuasion tool you have in your entire arsenal is your integrity.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/persuasion-tool/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "believer-08",
+    "level": 1,
+    "text": "Never underestimate the power of influence.",
+    "author": "Jim Rohn",
+    "source_url": "https://www.jimrohn.com/wisdom/quotes/never-underestimate-influence",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "believer-09",
+    "level": 1,
+    "text": "The greatest gift you can give somebody is your own personal development.",
+    "author": "Jim Rohn",
+    "source_url": "https://www.jimrohn.com/wisdom/quotes/greatest-gift-personal-development",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "believer-10",
+    "level": 1,
+    "text": "Thanksgiving opens up the windows of possibility. Cynicism closes all doors.",
+    "author": "Jim Rohn",
+    "source_url": "https://www.jimrohn.com/wisdom/quotes/thanksgiving-opens-windows",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "hustler-01",
+    "level": 2,
+    "text": "Successful people ask better questions, and as a result, they get better answers.",
+    "author": "Tony Robbins",
+    "source_url": "https://www.tonyrobbins.com/de/living-primary-question",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "hustler-02",
+    "level": 2,
+    "text": "Reasons come first, answers come second.",
+    "author": "Tony Robbins",
+    "source_url": "https://www.tonyrobbins.com/personal-coaching",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "hustler-03",
+    "level": 2,
+    "text": "There are no traffic jams on the extra mile.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/traffic-jams/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "hustler-04",
+    "level": 2,
+    "text": "The fastest way to success is to replace bad habits with good habits.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/fastest-way-success-2/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "hustler-05",
+    "level": 2,
+    "text": "Don't count the things you do, do the things that count.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/positive-kids/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "hustler-06",
+    "level": 2,
+    "text": "You don't \"pay the price\" for success - you enjoy the benefits of success.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/pay-the-price/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "hustler-07",
+    "level": 2,
+    "text": "Formal education will make you a living; self-education will make you a fortune.",
+    "author": "Jim Rohn",
+    "source_url": "https://www.jimrohn.com/wisdom/quotes/self-education-fortune",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "hustler-08",
+    "level": 2,
+    "text": "Your level of success will rarely exceed your level of personal development.",
+    "author": "Jim Rohn",
+    "source_url": "https://www.jimrohn.com/wisdom/quotes/success-rarely-exceed-development",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "hustler-09",
+    "level": 2,
+    "text": "You don't have to love what you do, but learn to love the opportunity.",
+    "author": "Jim Rohn",
+    "source_url": "https://www.jimrohn.com/wisdom/quotes/love-the-opportunity",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "hustler-10",
+    "level": 2,
+    "text": "Spend more time with the right people. The wrong crowd will never take you to the right places.",
+    "author": "Jim Rohn",
+    "source_url": "https://www.jimrohn.com/wisdom/quotes/spend-time-right-people",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maniac-01",
+    "level": 3,
+    "text": "If you have a big enough why, you will figure out the how.",
+    "author": "Tony Robbins",
+    "source_url": "https://www.tonyrobbins.com/blog/staying-focus",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maniac-02",
+    "level": 3,
+    "text": "Your attitude, not your aptitude, will determine your altitude.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/your-attitude-not-your-aptitude/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maniac-03",
+    "level": 3,
+    "text": "Far too many people have no idea what they can do because all they've been told is what they can't do.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/you-can/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maniac-04",
+    "level": 3,
+    "text": "Opportunity does not lie in the job; it lies in the individual who looks at the possibilities instead of the problems.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/opportunity-and-possibilities/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maniac-05",
+    "level": 3,
+    "text": "You never know when a moment and a few sincere words can have an impact on a life forever.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/you-never-know/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maniac-06",
+    "level": 3,
+    "text": "Don't join an easy crowd; you won't grow. Go where the expectations and the demands to perform are high.",
+    "author": "Jim Rohn",
+    "source_url": "https://www.jimrohn.com/wisdom/quotes/dont-join-easy-crowd",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maniac-07",
+    "level": 3,
+    "text": "The people you associate with can make or break your dreams. Surround yourself with those who lift you higher.",
+    "author": "Jim Rohn",
+    "source_url": "https://www.jimrohn.com/wisdom/quotes/make-or-break-your-dreams",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maniac-08",
+    "level": 3,
+    "text": "Don't say 'If I could, I would.' Say 'If I can, I will.'",
+    "author": "Jim Rohn",
+    "source_url": "https://www.jimrohn.com/wisdom/quotes/if-i-can-i-will",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maniac-09",
+    "level": 3,
+    "text": "Happiness is not something you postpone for the future; it is something you design for the present.",
+    "author": "Jim Rohn",
+    "source_url": "https://www.jimrohn.com/wisdom/quotes/happiness-design-for-present",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maniac-10",
+    "level": 3,
+    "text": "Walk away from the 97% and join the 3% who make a decision to not let life go by without living it.",
+    "author": "Jim Rohn",
+    "source_url": "https://www.jimrohn.com/wisdom/quotes/walk-away-from-97-percent",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maximum-01",
+    "level": 4,
+    "text": "When you want to succeed as bad as you want to breathe, then you'll be successful.",
+    "author": "Eric Thomas",
+    "source_url": "https://ericthomas.com/home",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maximum-02",
+    "level": 4,
+    "text": "You were designed for accomplishment, engineered for success, and endowed with the seeds of greatness.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/you/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maximum-03",
+    "level": 4,
+    "text": "Of course motivation is not permanent. But then, neither is bathing; but it is something you should do on a regular basis.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/worth-doing/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maximum-04",
+    "level": 4,
+    "text": "You are a success when you have made friends with your past, are focused on the present, and are optimistic about your future.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/success-installment-plan/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maximum-05",
+    "level": 4,
+    "text": "Moving from survival to stability, from stability to success, from success to significance.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/success-to-significance/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maximum-06",
+    "level": 4,
+    "text": "God doesn't call us to be successful; He calls us to be significant.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/significant/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maximum-07",
+    "level": 4,
+    "text": "I'm so optimistic I'd go after Moby Dick in a row boat and take the tartar sauce with me.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/moby-dick/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maximum-08",
+    "level": 4,
+    "text": "Don't become a wandering generality. Be a meaningful specific.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/meaningful-specific/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maximum-09",
+    "level": 4,
+    "text": "It's not what happens to you that matters. It's how you respond to what happens to you that makes a difference.",
+    "author": "Zig Ziglar",
+    "source_url": "https://www.ziglar.com/quotes/its-how-you-handle-it/",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "maximum-10",
+    "level": 4,
+    "text": "In leadership we teach: Don't send your ducks to eagle school.",
+    "author": "Jim Rohn",
+    "source_url": "https://www.jimrohn.com/wisdom/quotes/in-leadership-we-teach-dont-send-your-ducks-to-eagle-school",
+    "verified_on": "2026-10-27"
+  }
+]
