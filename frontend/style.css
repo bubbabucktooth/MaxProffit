@@ -196,3 +196,108 @@ h1 span { font-size:14px; vertical-align:top; letter-spacing:0; padding-left:4px
 @media(max-width:1050px) { .status { min-width:0; max-width:160px; line-height:1.6; } .control-bar { padding:0 25px; } .nameplate { left:5%; } }
 @media(max-width:700px) { .masthead { top:22px; left:22px; right:22px; } .brand { font-size:18px; } .brand-mark { width:36px; height:36px; font-size:26px; } .brand-caption { font-size:6px; letter-spacing:1px; } .edition { font-size:8px; letter-spacing:1px; } .portrait { inset:100px 8px 200px; margin-left:0; } .spotlight { left:50%; width:80vw; top:44%; } .nameplate { top:auto; bottom:112px; left:22px; transform:none; } .nameplate h1 { font-size:30px; letter-spacing:-1px; margin:7px 0; } .nameplate p,.nameplate-rule,.fiction { display:none; } .eyebrow { font-size:7px; letter-spacing:1px; } .control-bar { height:92px; padding:0 18px; gap:5px; flex-wrap:wrap; justify-content:space-between; align-content:center; } .status { flex-basis:100%; max-width:none; margin-bottom:10px; font-size:8px; } .motion-toggle { font-size:8px; } .floor { bottom:92px; } }
 @media(max-height:570px) and (min-width:701px) { .masthead { top:18px; } .portrait { top:15px; bottom:70px; } .control-bar { height:65px; } .floor { bottom:65px; } .nameplate { top:45%; } h1 { font-size:42px; } .nameplate p { margin:12px 0; } }
+
+/* Mobile has a reserved quote row: text can never grow over the coach's face. */
+@media (max-width:700px) {
+  .stage {
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    grid-template-rows:72px minmax(128px,max-content) minmax(0,1fr) 100px 48px;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  .masthead {
+    position:relative;
+    grid-area:1 / 1;
+    inset:auto;
+    align-self:start;
+    margin:16px 18px 0;
+  }
+  .portrait {
+    position:relative;
+    grid-area:3 / 1;
+    inset:auto;
+    min-height:0;
+    margin:0 10px;
+  }
+  .stage[data-expression] .speech-bubble {
+    position:relative;
+    grid-area:2 / 1;
+    inset:auto;
+    align-self:center;
+    justify-self:center;
+    width:calc(100% - 36px);
+    max-width:none;
+    margin:0;
+    padding:10px 14px;
+    font-size:clamp(13px,3.4vw,15px);
+    line-height:1.16;
+    transform:none;
+  }
+  .speech-bubble::after {
+    left:calc(50% - 8px);
+    bottom:-10px;
+    width:14px;
+    height:14px;
+    border-left:0;
+    border-right:3px solid var(--ink);
+    transform:rotate(45deg);
+  }
+  .quote-author { margin-top:6px; }
+  .nameplate {
+    position:relative;
+    grid-area:4 / 1;
+    inset:auto;
+    align-self:center;
+    justify-self:start;
+    margin-left:18px;
+    transform:none;
+  }
+  .nameplate h1 { font-size:clamp(22px,6.6vw,30px); margin:6px 0; }
+  .money-dock {
+    position:relative;
+    grid-area:4 / 1;
+    inset:auto;
+    align-self:center;
+    justify-self:end;
+    width:min(174px,46vw);
+    margin-right:18px;
+  }
+  .control-bar {
+    position:relative;
+    grid-area:5 / 1;
+    inset:auto;
+    height:48px;
+    padding:0 18px;
+    flex-wrap:nowrap;
+    gap:12px;
+  }
+  .control-bar .status { flex:1; min-width:0; max-width:none; margin:0; font-size:8px; letter-spacing:.5px; }
+  .status-dot { flex-shrink:0; }
+  .motion-toggle { flex-shrink:0; min-height:44px; font-size:10px; white-space:nowrap; }
+  .floor { bottom:48px; }
+}
+
+/* Short landscape phones keep the quote and throw button beside the character. */
+@media (max-width:950px) and (max-height:500px) and (orientation:landscape) {
+  .stage { display:block; min-height:0; padding:0; }
+  .masthead { position:absolute; inset:12px 18px auto; margin:0; }
+  .brand { font-size:18px; }
+  .brand-mark { width:36px; height:36px; font-size:26px; }
+  .brand-caption,.nameplate { display:none; }
+  .portrait { position:absolute; inset:56px 45% 48px 0; margin:0; }
+  .stage[data-expression] .speech-bubble {
+    position:absolute; inset:60px 18px auto auto; width:40%; max-width:none;
+    padding:10px 12px; font-size:12px; line-height:1.16; transform:none;
+  }
+  .speech-bubble::after { display:none; }
+  .quote-author { margin-top:5px; }
+  .money-dock { position:absolute; inset:auto 18px 64px auto; margin:0; width:180px; }
+  .throw-button { height:50px; font-size:10px; }
+  #money-icon { flex-basis:54px; }
+  .pretend-note { margin-top:7px; }
+  .spotlight { left:28%; top:50%; width:min(66vh,42vw); }
+  .control-bar { position:absolute; inset:auto 0 0; height:44px; flex-wrap:nowrap; }
+  .control-bar .status { flex:1; min-width:0; max-width:none; margin:0; }
+  .floor { bottom:44px; }
+}

@@ -79,7 +79,9 @@ Med appservern igång och Chrome/Chromium installerad:
 
 Testet använder en separat profil under `.verification/`. Din vanliga webbläsarprofil används inte. Om Chrome inte hittas kan `MAXPROFFIT_CHROME` ange sökvägen till dess körbara fil. Inga extra Python-paket behövs utöver appens beroenden. En GIF av finalen kan skapas med `tests\browser_verify.py --preview`.
 
-Kontrollera radbrytning för samtliga citat vid sex skärmbredder med `tests\browser_verify.py --typography`. Ord hålls ihop; bindestreck inom ord visas som icke-brytande bindestreck utan att ändra källtexten i JSON.
+Kontrollera radbrytning och överlapp för samtliga citat vid åtta viewport-storlekar med `tests\browser_verify.py --typography`. Kontrollen omfattar ord, pratbubblans placering mot huvud och kastknapp samt att mobilens kontroller ryms. Ord hålls ihop; bindestreck inom ord visas som icke-brytande bindestreck utan att ändra källtexten i JSON.
+
+Mobilens layout har separata rader för sidhuvud, citat, figur, spelkontroller och sidfot. Citatets rad reserveras även när bubblan är dold, så figuren inte hoppar mellan kast. Raden kan växa med texten utan att täcka ansiktet. På låga skärmar i liggande läge ligger citatet och kastknappen bredvid figuren.
 
 Verifierat: 40 unika citat, exakta nivågränser, ökande intensitet, 100 snabba klick med högst 40 accepterade kast, en final per omgång, flera kompletta omgångar, omstart utan omladdning och reducerad rörelse. Desktop har kontrollerats vid 1440×1000 och mobil vid 390×844. Mobilkontrollerna är viewport-emulering, inte test på fysisk telefon.
 
